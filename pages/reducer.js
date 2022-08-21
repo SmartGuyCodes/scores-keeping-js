@@ -7,7 +7,7 @@ export default function Reducer(){
 
     const [division, divide] = useReducer((state, action) => {
         return state / action;
-    }, 1000);
+    }, 14000000);
 
     return (
         <div>
